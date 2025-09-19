@@ -1,0 +1,11 @@
+# CPU-specific files and results to ignore
+openwind/openwind/sar_wind.py
+openwind/openwind/cmod5n.py
+openwind/openwind/cmod5n_CPU.py
+RESULTS/CPU/
+
+# Large data and output files
+*.tif
+*.tiff
+*.nc
+*.zip

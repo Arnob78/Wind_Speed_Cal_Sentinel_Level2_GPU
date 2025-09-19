@@ -1,0 +1,13 @@
+name: py3nansat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - gdal
+  - cartopy
+  - netcdf4
+  - pip
+  - pip:
+    - pythesint
+    - cupy-cuda12x
