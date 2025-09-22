@@ -33,10 +33,10 @@ except ImportError as e:
                      For development, use "python setup.py build_ext --inplace"
                      to compile pixel functions manually into the source tree.
                      ''')
-from nansat.nsr import NSR
-from nansat.domain import Domain
-from nansat.nansat import Nansat
-from nansat.figure import Figure
+from .nsr import NSR
+from .domain import Domain
+from .nansat import Nansat
+from .figure import Figure
 
 __all__ = ['NSR', 'Domain', 'Nansat', 'Figure']
 

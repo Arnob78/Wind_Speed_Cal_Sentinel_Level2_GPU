@@ -9,3 +9,7 @@ RESULTS/CPU/
 *.tiff
 *.nc
 *.zip
+
+# Ignore data and results
+DATA/
+RESULTS/

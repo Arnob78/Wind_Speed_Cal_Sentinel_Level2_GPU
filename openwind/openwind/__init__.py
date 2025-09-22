@@ -1,6 +1,5 @@
 from __future__ import absolute_import
-from openwind.sar_wind import SARWind
-from openwind.cmod5n import cmod5n_inverse, cmod5n_forward
+from openwind.cmod5n_GPU import cmod5n_inverse_gpu, cmod5n_forward_gpu
 from openwind.cdop import cdop
 
-__all__ = ['SARWind', 'cmod5n_inverse', 'cmod5n_forward', 'cdop']
+__all__ = ['cmod5n_inverse_gpu', 'cmod5n_forward_gpu', 'cdop']

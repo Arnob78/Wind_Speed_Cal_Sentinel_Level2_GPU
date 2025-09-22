@@ -24,7 +24,7 @@ except:
     print('WARNING: Matplotlib not available, cannot make plots')
 
 
-from nansat.nansat import Nansat, Domain
+from nansat import Nansat, Domain
 
 from openwind.cmod5n_GPU import cmod5n_inverse_gpu
 
