@@ -1,4 +1,4 @@
-name: py3nansat
+name: Wind_Speed_Cal_Sentinel_Level2_GPU
 channels:
   - conda-forge
   - defaults
